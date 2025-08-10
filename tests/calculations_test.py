@@ -69,22 +69,23 @@ def test_get_nth_fibonacci_ten():
      assert result == 55
 
 def test_area_of_circle_negative_radius():
-    """Test area_of_circle with a negative radius raises ValueError."""
-    # Arrange
-    radius = -10
-
-    # Act
-    result = area_of_circle(radius)
-
-    # Assert
-    assert result == "Radius cannot be negative"
+     """Test area_of_circle with a negative radius raises ValueError."""
+     # Arrange
+     radius = -10
+    
+     # Act
+     result = area_of_circle(radius)
+    
+     # Assert
+     assert result == "Radius cannot be negative"
 
 def test_get_nth_fibonacci_negative():
-    """Test get_nth_fibonacci with negative n raises ValueError."""
+     """Test get_nth_fibonacci with negative n raises ValueError."""
      # Arrange
      n = -5
-     # Act
+     
+    # Act
      result = get_nth_fibonacci(n)
-
-    # Assert
-    assert result == "Radius cannot be negative"
+    
+     # Assert
+     assert result == "Radius cannot be negative"
