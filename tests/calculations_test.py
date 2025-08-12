@@ -71,7 +71,7 @@ def test_get_nth_fibonacci_ten():
 def test_area_of_circle_negative_radius():
     """Test area_of_circle with a negative radius raises ValueError."""
     radius = -10
-    with self.assertRaises(ValueError):
+    with assertRaises(ValueError):
         area_of_circle(radius)
 
 def test_get_nth_fibonacci_negative():
